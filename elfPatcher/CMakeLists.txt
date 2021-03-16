@@ -4,5 +4,5 @@ project(
   VERSION 1.0
   LANGUAGES CXX)
 
-add_executable(elf_patcher elf.c)
+add_executable(elf_patcher elf.cpp)
 add_executable(elf_search patcherSearch.cpp)
