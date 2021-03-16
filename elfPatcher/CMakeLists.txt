@@ -5,4 +5,4 @@ project(
   LANGUAGES CXX)
 
 add_executable(elf_patcher elf.c)
-add_executable(elf_search patcherSearch.cpp)
+add_executable(elf_search patcherSearch.c)
