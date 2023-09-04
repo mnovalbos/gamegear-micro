@@ -4,12 +4,12 @@
 
 This repository keeps some tools intended to help people hacking the Sega Game Gear Micro emulator.
 These tools will work only with the Black GG Micro emulator, untested in any other version. Any 
-resemblance with any "standard" tool is merely a coincidence, I didn't wrote this tools for daily 
+resemblance with any "standard" tool is merely a coincidence, I didn't wrote these tools for daily 
 use.
 
 Directory "assets":
 - Some tools to help editing "assets.bin" file, which keeps all the files used by the emulator. After 
-repacking the "assets.bin" file, this tool will generate a "patch" file that will be used with the next 
+repacking the "assets.bin" file, this tool will generate a "patch" file that should be used with the next 
 patch tools. 
 Directory "elfPatcher"
 - Some tools to help hacking the emulator itself. Given a fresh copy of Sega's GG micro emulator,
